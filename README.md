@@ -16,7 +16,7 @@ Then, we derived acceleration and jerk. The following plots show the resulting d
 
  The resulting dataset maps the following input vector to a jerk value, that can later be integrated to state of the system in time ∆t from the previous state:
 
-$\begin{bmatrix}
+$\[\begin{bmatrix}
 Effort_t\\
 Rate_t\\
 Acceleration_t\\
@@ -25,7 +25,7 @@ Acceleration_t\\
 Effort_{t+1}\\
 Rate_{t+1}\\
 Acceleration_{t+1}\\
-\end{bmatrix}$
+\end{bmatrix}/]$
 
 The following plot shows the 3D relation between the input vector and the output jerk:
 
