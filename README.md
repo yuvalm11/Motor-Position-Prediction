@@ -1,8 +1,12 @@
 # Machine learning for dynamics modeling
 
-We developed a machine learning model that predicts the dynamics of a motor given the current state. Using a dataset of motor dynamics measurements, the model is used to predict the dynamics of the system in a closed-loop control system.
+## Introduction
 
-## 1. Data Collection and processing
+As part of my research work at the [CBA lab](https://cba.mit.edu/), I assisted [Jake Read](https://jakeread.pages.cba.mit.edu/) in his work to develop better fabrication machines.
+
+We wanted to develop a machine learning model that predicts the dynamics of a motor given its current state. This repo contains the methods used to create the dataset.
+
+## Data Collection and processing
 
 To create the dataset, we ran a series of measurements using a dynamometer and the motor firmware. The resulting data is a rate time series for each effort value.
 
